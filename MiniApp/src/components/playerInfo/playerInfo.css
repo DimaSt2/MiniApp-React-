@@ -1,0 +1,43 @@
+.playerInfo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 22px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+.userName {
+        color: #FFF;
+        font-family: Montserrat, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+.balance {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 26px;
+    gap: 9px;
+    border-radius: 24px;
+    background: #373352;
+    
+}
+
+.balance-value {
+        color: #FFF;
+        text-align: right;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
